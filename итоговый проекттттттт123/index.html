@@ -3,82 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Янтекс лавка</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
     <header>
-
-        <h1>DTHR</h1>
-
+        <h1>Янтекс лавка - один из самых лучших интернет-магазинов</h1> <h1 class="moving-text">✨</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#products">Товары</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
     </header>
-    
-    <main>
-        <selection>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#" class="filter">
-                            <div class="filter-icon">
-                                <span class="popular"></span>
+      <main>
+        <section id="home">
+            <h2>Главная страница</h2>
+            <p>Здесь вы найдите подходящие товары по низким ценам!</p>
+            <br>
+            <p>Бесплатная доставка и скидка 30% на первый заказ.</p>
 
-                            </div>
-                            <div class="filter-text"></div>
-                        </a>
+            <button class="buy-button">
+                <span class="button-text">Корзина</span>
+                <span class="button-icon">🚕</span>
+            </button>
 
-                    </li>
+        </section>
+        <section id="products">
+            <h2>Наши товары</h2>
 
-                    <li>
-                         <a href="#" class="filter">
-                            <div class="filter-icon">
-                                <span class="high"></span>
-                            </div>
-                            <div class="filter-text"></div>
-                         </a>
-                    </li>
+            <div class="product-card">
+                <div class="product">
+                    <h3>Клубника Краснодарская</h3>
+                    <p>Свежая клубника из Краснодарского края. Имеет мягкую и нежную мякоть. Можно есть просто так, добавлять в десерты, смузи, салаты и выпечку.</p>
+                    <div class="product-image">
+                        <img src="strawberry11.jpg" alt="Клубника Краснодарская">
+                    </div>
+                    <button class="buy-button">
+                        <span class="button-text">Купить</span>
+                        <span class="button-icon">🔅</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <h3>Розовые томаты, Азербайджан</h3>
+                    <p>Розовые томаты из Азербайджана. Сочные и ароматные. Подойдут для салатов, закусок, супов и вторых блюд.</p>
+                    <div class="product-image">
+                        <img src="tomatoes.jpg" alt="Розовые томаты, Азербайджан">
+                    </div>
+                    <button class="buy-button">
+                        <span class="button-text">Купить</span>
+                        <span class="button-icon">🔅</span>
+                    </button>
+                </div>
+                <div class="product">
+                    <h3>Черешня</h3>
+                    <p>Сладкая и сочная ранняя черешня. Ягоды спелые и мягкие, поэтому могут быть с небольшими вмятинами, но это никак не влияет на вкус.</p>
+                    <div class="product-image">
+                        <img src="cherry1.jpg" alt="Черешня">
+                    </div>
+                    <button class="buy-button">
+                        <span class="button-text">Купить</span>
+                        <span class="button-icon">🔅</span>
+                    </button>
+                </div>
 
-                    <li>
-                        <a href="#" class="filter">
-                            <div class="filter-icon">
-                                <span class="early"></span>
-                            </div>
-                            <div class="filter-text"></div>
-                        </a>
-                    </li>
+                <div class="product">
+                    <h3>Огурцы короткоплодные хрустящие</h3>
+                    <p>Плоды вытянутой цилиндрической формы, имеют кожуру ярко-зеленого и темно-зеленого цвета и сочную мякоть белого или слегка зеленоватого оттенка, многосемянные.</p>
+                    <div class="product-image">
+                        <img src="og.webp" alt="Огурцы">
+                    </div>
+                    <button class="buy-button">
+                        <span class="button-text">Купить</span>
+                        <span class="button-icon">🔅</span>
+                    </button>
+                </div>
 
-                    <li>
-                        <a href="#" class="filter">
-                            <div class="filter-icon">
-                                <span class="light"></span>
-                            </div>
-                            <div class="filter-text"></div>
-                        </a>
+                <div class="product">
+                    <h3>Лук репчатый</h3>
+                    <p>Лук репчатый делает блюда ароматней и вкуснее, защищает и лечит от болезней, содержит кладезь полезных веществ, витаминов, считается мощным афродизиаком.</p>
+                    <div class="product-image">
+                        <img src="luk.jpg" alt="Лук">
+                    </div>
+                    <button class="buy-button">
+                        <span class="button-text">Купить</span>
+                        <span class="button-icon">🔅</span>
+                    </button>
+                </div>
 
-                    </li>
-
-                    <li>
-                        <a href="#" class="filter">
-                            <div class="filter-icon">
-                                <span class="rare"></span>
-                            </div>
-                            <div class="filter-text"></div>
-                        </a>
-
-                    </li>
-                </ul>
-
-            </nav>
-
-        </selection>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Контакты</h2>
+            <form>
+                <label for="adv">Предложить рекламу:</label>
+                <input type="text" id="adv" name="adv">
+                <button class="buy-button">
+                    <span class="button-text">Отправить</span>
+                    <span class="button-icon">→</span>
+                </button>
+                <label for="sup">Написать в поддержку: support@yantex.ru</label>
+            </form>
+        </section>
     </main>
-
     <footer>
-
-
-
+        <p>Лучший современный интернет-магазин.</p>
     </footer>
-
-</body>
 </body>
 </html>
